@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="data/Icons/we.png">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/a9b8bb3187.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <header id="h1">   
+        <div id="logoimage"><img src="data/Icons/we.png" height="60%" width="50%" ></div>
+        <div id="logotext"><span>Electric</span></div>
+        <div id="h2">
+            <div id="Contactus"><a href="#footer1">Contact Us</a></div>
+            <div id="info"><a href="#footer2">Info</a></div>
+            <div id="ac" onclick="acc()"><img id="account" src="data/Icons/login.png"></img></div>
+        </div>
+    </header>
+
+    <div id="subhead">
+        <div id="search" class="search">
+            <button id="searchbutton"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input id="searchinput" type="text" placeholder="search here">
+        </div>
+
+        <div class="option">
+            <a class="active">Home</a>
+            <a href="popular.html">Explore</a>
+            <a href="news.html">News</a>
+        </div>
+
+        <div class="option2">
+            <a href="saved.html"> Whishlist &nbsp;<i class="fa-regular fa-bookmark"></i></a>
+            <a href="cart.html"> Cart &nbsp;<i class="fa-solid fa-cart-shopping"></i></a>
+            
+        </div>
+
+    </div>
+
+    <div id="main" style="width: 80%; padding-top: 80px;" >
+
+
+        <div style="margin-bottom: 50px;">
+            <img src="data/images/f6wxdatim6oa1.gif" alt="summer sale" height="500px" width="100%">
+        </div>
+
+        <hr style="margin-bottom: 50px; border: 1px solid rgba(69, 69, 69, 0.551);">
+
+        <div style="margin: 0 auto 50px auto;">
+            <span style="color: white;font-family: 'Poppins', sans-serif; font-size: 17px; font-weight: 600; letter-spacing: 2px;" >Exclusives Games</span>
+        </div>
+
+
+
+        <div id="content1" style="background-image: url(data/images/gta-6-sunset-highway-wallpapers-usagif.gif); margin-bottom: 75px;">
+            <div  id="c1sub" >
+                <img  id="c1img" src="data/images/grand_theft_auto_vi_logo_png__by_emannyc01_dgj5wme.png" height="55%" width="20%">
+                <div id="c12" style="width: 400px; display: flex; flex-direction: column;justify-content: space-around;">
+                    <span style="color: white;font-family: 'Poppins', sans-serif; font-size: 30px; font-weight: 600; letter-spacing: 1px;">Grand Theft Auto VI</span>
+                    <span style="color: white; font-family: 'Poppins', sans-serif; font-size: 13px;font-weight: 400;text-align: justify ;margin-right: 30px;">It is an action-adventure game developed by Rockstar Games. It is the eighth main game in the Grand Theft Auto series</span>
+                </div>
+                <div style="width: 400px; display: flex; flex-direction: row;justify-content: space-around;">
+                    <button class="Cart" onclick="car(gta6)"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button class="Whishlist" onclick="whish(gta6)"><i class="fa-regular fa-bookmark"></i></button>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+        <div id="content1" style="background-image: url(data/images/giphy.gif); margin-bottom: 75px;">
+            <div  id="c1sub" >
+                <img  id="c1img" src="data/images/God-Of-War-Ragnarok-Logo-PNG.png" height="45%" width="16.5%" style="margin:0 20px 0 20px;">
+                <div id="c12" style="width: 400px; display: flex; flex-direction: column;justify-content: space-around;">
+                    <span style="color: white;font-family: 'Poppins', sans-serif; font-size: 30px; font-weight: 600; letter-spacing: 1px;">God Of War : Ragnarok </span>
+                    <span style="color: white; font-family: 'Poppins', sans-serif; font-size: 13px;font-weight: 400;text-align: justify;margin-right: 30px;">God of War Ragnarök is an action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment.</span>
+                </div>
+                <div style="width: 400px; display: flex; flex-direction: row;justify-content: space-around;">
+                    <button class="Cart" onclick="car(god)"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button class="Whishlist" onclick="whish(god)"><i class="fa-regular fa-bookmark"></i></button>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div id="content1" style="background-image: url(data/images/KwIC91.gif); margin-bottom: 75px;">
+            <div  id="c1sub" >
+                <img  id="c1img" src="data/images/pngimg.com - red_dead_redemption_PNG20.png" height="55%" width="16.5%" style="margin:0 20px 0 20px;">
+                <div id="c12" style="width: 400px; display: flex; flex-direction: column;justify-content: space-around;">
+                    <span style="color: white;font-family: 'Poppins', sans-serif; font-size: 30px; font-weight: 600; letter-spacing: 1px;">Red Dead Redemption 2 </span>
+                    <span style="color: white; font-family: 'Poppins', sans-serif; font-size: 13px;font-weight: 400; text-align: justify;margin-right: 30px;">Red Dead Redemption 2 is a 2018 action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and a prequel to the 2010 game Red Dead Redemption.</span>
+                </div>
+                <div style="width: 400px; display: flex; flex-direction: row;justify-content: space-around;">
+                    <button class="Cart" onclick="car(rdr2)"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button class="Whishlist" onclick="whish(rdr2)"><i class="fa-regular fa-bookmark"></i></button>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div id="content1" style="background-image: url(data/images/207616.gif); margin-bottom: 75px;">
+            <div  id="c1sub" >
+                <img  id="c1img" src="data/images/Arklogo.png" height="40%" width="16.5%" style="margin:0 20px 0 20px;">
+                <div id="c12" style="width: 400px; display: flex; flex-direction: column;justify-content: space-around;">
+                    <span style="color: white;font-family: 'Poppins', sans-serif; font-size: 30px; font-weight: 600; letter-spacing: 1px;">ARK 2</span>
+                    <span style="color: white; font-family: 'Poppins', sans-serif; font-size: 13px;font-weight: 400; text-align: justify;margin-right: 30px;">Survive the past. Tame the future. Suddenly awakened on a primal world filled with dinosaurs and humans struggling for dominance, you must team-up with legendary heroes to confront powerful dark forces. Saddle up, and join the definitive next-gen survival experience with ARK 2</span>
+                </div>
+                <div style="width: 400px; display: flex; flex-direction: row;justify-content: space-around;">
+                    <button class="Cart" onclick="car(ark2)"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button class="Whishlist"onclick="whish(ark2)"><i class="fa-regular fa-bookmark"></i></button>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+
+
+        <hr style="margin-bottom: 50px; border: 1px solid rgba(69, 69, 69, 0.551);">
+
+        <div style="margin: 0 auto 50px auto;">
+            <span style="color: white;font-family: 'Poppins', sans-serif; font-size: 17px; font-weight: 600; letter-spacing: 2px;" >Popular Games</span>
+        </div>
+
+
+
+        <div id="content2" style="background-image: url(data/images/euro-truck-simulator-ets2-euro-truck-simulator-2-wallpaper-preview.jpg); margin-bottom: 75px;">
+            <div  id="c2sub" >
+                <img  id="c2img" src="data/images/ets2.png" height="30%" width="60%" style="margin:0 20px 0 20px;">
+                <div id="c22" style="width: 400px; display: flex; flex-direction: column;justify-content: space-around;">
+                    <span style="color: white;font-family: 'Poppins', sans-serif; font-size: 30px; font-weight: 600; letter-spacing: 1px; margin-bottom: 20px;">Euro Truck Simulator 2</span>
+                    <span style="color: white; font-family: 'Poppins', sans-serif; font-size: 13px;font-weight: 400;text-align: justify">Euro Truck Simulator 2 gives you the chance to become a real truck driver from the comfort of your home! Featuring licensed trucks with countless customization options and advanced driving physics, the game delivers an unparalleled driving experience which has put it in the spot of the most popular truck driving simulator on the market</span>
+                </div>
+                <div style="width: 400px; display: flex; flex-direction: row;justify-content: space-around;">
+                    <button class="Cart" onclick="car(ets2)"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button class="Whishlist" onclick="whish(ets2)"><i class="fa-regular fa-bookmark"></i></button>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div id="content2" style="background-image: url(data/images/actual_1427472506-640x360.jpg); margin-bottom: 75px;">
+            <div  id="c2sub" >
+                <img  id="c2img" src="data/images/gta5logo.png" height="30%" width="60%" style="margin:0 20px 0 20px;">
+                <div id="c22" style="width: 400px; display: flex; flex-direction: column;justify-content: space-around;">
+                    <span style="color: white;font-family: 'Poppins', sans-serif; font-size: 30px; font-weight: 600; letter-spacing: 1px; margin-bottom: 20px;">Grand Theft Auto V</span>
+                    <span style="color: white; font-family: 'Poppins', sans-serif; font-size: 13px;font-weight: 400; text-align: justify;">Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. Outside of the missions, players may freely roam the open world.</span>
+                </div>
+                <div style="width: 400px; display: flex; flex-direction: row;justify-content: space-around;">
+                    <button class="Cart" onclick="car(gta5)"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button class="Whishlist" onclick="whish(gta5)"><i class="fa-regular fa-bookmark"></i></button>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div id="content2" style="background-image: url(data/images/Forza_Horizon_5_Video_PC_Settings_Xbox_Series_X_Grafik.jpg); margin-bottom: 75px;">
+            <div  id="c2sub" >
+                <img  id="c2img" src="data/images/forza_horizon_5_by_pooterman_dequkse.png" height="30%" width="40%" style="margin:0 20px 0 20px;">
+                <div id="c22" style="width: 400px; display: flex; flex-direction: column;justify-content: space-around;">
+                    <span style="color: white;font-family: 'Poppins', sans-serif; font-size: 30px; font-weight: 600; letter-spacing: 1px; margin-bottom: 20px;">Forza Horizon 5</span>
+                    <span style="color: white; font-family: 'Poppins', sans-serif; font-size: 13px;font-weight: 400; text-align: justify;">Forza Horizon 5 is a 2021 racing video game developed by Playground Games and published by Xbox Game Studios. It is the fifth Forza Horizon title and twelfth main instalment in the Forza series. The game is set in a fictionalised representation of Mexico.</span>
+                </div>
+                <div style="width: 400px; display: flex; flex-direction: row;justify-content: space-around;">
+                    <button class="Cart" onclick="car(fh5)"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button class="Whishlist" onclick="whish(fh5)"><i class="fa-regular fa-bookmark"></i></button>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div id="content2" style="background-image: url(data/images/alan-wake-2-HD-scaled.jpg); margin-bottom: 75px;">
+            <div  id="c2sub" >
+                <img  id="c2img" src="data/images/alan_wake_ii_2___desktop_icon_by_jolu42_dgdvt6i.png" height="30%" width="40%" style="margin:0 20px 0 20px;">
+                <div id="c22" style="width: 400px; display: flex; flex-direction: column;justify-content: space-around;">
+                    <span style="color: white;font-family: 'Poppins', sans-serif; font-size: 30px; font-weight: 600; letter-spacing: 1px; margin-bottom: 20px;">Alan Wake 2</span>
+                    <span style="color: white; font-family: 'Poppins', sans-serif; font-size: 13px;font-weight: 400; text-align: justify;">Saga Anderson arrives to investigate ritualistic murders in a small town. Alan Wake pens a dark story to shape the reality around him. These two heroes are somehow connected. Can they become the heroes they need to be?</span>
+                </div>
+                <div style="width: 400px; display: flex; flex-direction: row;justify-content: space-around;">
+                    <button class="Cart" onclick="car(aw2)"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button class="Whishlist" onclick="whish(aw2)"><i class="fa-regular fa-bookmark"></i></button>
+                </div>
+            </div>
+            
+        </div>
+        
+
+    
+        <hr style="margin-bottom: 50px; border: 1px solid rgba(69, 69, 69, 0.551);">
+
+        <div style="margin: 0 auto 50px auto;">
+            <span style="color: white;font-family: 'Poppins', sans-serif; font-size: 17px; font-weight: 600; letter-spacing: 2px;" >Retro Games</span>
+        </div>
+
+
+
+        <div id="content3" style="background-image: url(data/images/v1_SF_JR.jpg);">
+            <div  id="c3sub" >
+                <img  id="c3img" src="data/images/streer.png" height="30%" width="40%" style="margin:0 20px 0 20px;">
+                <div id="c32" style="width: 400px; display: flex; flex-direction: column;justify-content: space-around;">
+                    <span style="color: white;font-family: 'Poppins', sans-serif; font-size: 30px; font-weight: 600; letter-spacing: 1px; margin-bottom: 20px;">Street Fighter</span>
+                    <span style="color: white; font-family: 'Poppins', sans-serif; font-size: 13px;font-weight: 400; text-align: justify;">In the original, players have to fight their way through a martial arts competition that spans five countries and 10 unique opponents who all use different fighting styles</span>
+                </div>
+                <div style="width: 400px; display: flex; flex-direction: row;justify-content: space-around;">
+                    <button class="Cart" onclick="car(sf)"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button class="Whishlist" onclick="whish(sf)"><i class="fa-regular fa-bookmark"></i></button>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="content3" style="background-image: url(data/images/super-mario-bros-7f3c67482caa4f34b39cda5c19efd63d.jpg);">
+            <div  id="c3sub" >
+                <img  id="c3img" src="data/images/mario.png" height="30%" width="40%" style="margin:0 20px 0 20px;">
+                <div id="c32" style="width: 400px; display: flex; flex-direction: column;justify-content: space-around;">
+                    <span style="color: white;font-family: 'Poppins', sans-serif; font-size: 30px; font-weight: 600; letter-spacing: 1px; margin-bottom: 20px;">Super Mario World</span>
+                    <span style="color: white; font-family: 'Poppins', sans-serif; font-size: 13px;font-weight: 400; text-align: justify;">In this game, Mario is out to save Princess Toadstool from Bowser and his Koopalings, and every level is filled with nostalgia</span>
+                </div>
+                <div style="width: 400px; display: flex; flex-direction: row;justify-content: space-around;">
+                    <button class="Cart" onclick="car(smw)"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button class="Whishlist" onclick="whish(smw)"><i class="fa-regular fa-bookmark"></i></button>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+        <div id="content4">
+            <a href="popular.html">Get More Game Click! Explore tap.....</a>
+        </div>
+
+    </div>
+
+
+    <div id="foot">
+        <div id="footer1">
+            <span id="leg">Contact us</span>
+            <div id="f1">
+                <input placeholder="UserName" id="name">
+                <input placeholder="Email" type="email" id="email">
+            </div>
+            <div id="f2">
+                <textarea placeholder="type here....."></textarea>
+                <button onclick="cot()">Submit</button>
+
+            </div>
+           
+        </div>
+
+        <div id="footer2">
+            <span>© 2024, Electric, Inc. All rights reserved. Electric logo are trademarks or registered trademarks of Electric, Inc. in the United States of America and elsewhere. Other brands or product names are the trademarks of their respective owners</span>
+            <img src="data/Icons/full logo png.png" height="100%" width="20%" style="opacity: 0.3;">
+
+        </div>
+    </div>
+
+    <button id="top" onclick="window.location.href='#h1';"><i class="fa-solid fa-up-long"></i></button>
+    
+    
+<script src="main.js"></script>
+    
+</body>
+
+
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="data/Icons/we.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a9b8bb3187.js" crossorigin="anonymous"></script>
+
+
+    <script src="main.js"></script>
+
+</head>
+
+<body onload="explore()">
+
+    <header id="h1">   
+        <div id="logoimage"><img src="data/Icons/we.png" height="60%" width="60%" ></div>
+        <div id="logotext"><span>Electric</span></div>
+        <div id="h2">
+            <div id="Contactus"><a href="#footer1">Contact Us</a></div>
+            <div id="info"><a href="#footer2">Info</a></div>
+            <div id="ac"><img id="account" src="data/Icons/login.png"></img></div>
+        </div>
+    </header>
+
+    <div id="subhead">
+        <div id="search" class="search">
+            <button id="searchbutton"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input id="searchinput" type="text" placeholder="search here">
+        </div>
+
+        <div class="option">
+            <a href="Main.html">Home</a>
+            <a  class="active" >Explore</a>
+            <a href="news.html">News</a>
+        </div>
+
+        <div class="option2">
+            <a href="saved.html"> Whishlist &nbsp;<i class="fa-regular fa-bookmark"></i></a>
+            <a href="cart.html"> Cart &nbsp;<i class="fa-solid fa-cart-shopping"></i></a>
+            
+        </div>
+
+    </div>
+
+    <div id="main" style="height: auto; width: 80%; margin-top: 50px;">
+
+    </div>
+
+    <div id="foot">
+        <div id="footer1">
+            <span id="leg">Contact us</span>
+            <div id="f1">
+                <input placeholder="UserName" id="name">
+                <input placeholder="Email" type="email" id="email">
+            </div>
+            <div id="f2">
+                <textarea placeholder="type here....."></textarea>
+                <button onclick="cot()">Submit</button>
+
+            </div>
+           
+        </div>
+
+        <div id="footer2">
+            <span>© 2024, Electric, Inc. All rights reserved. Electric logo are trademarks or registered trademarks of Electric, Inc. in the United States of America and elsewhere. Other brands or product names are the trademarks of their respective owners</span>
+            <img src="data/Icons/full logo png.png" height="100%" width="20%" style="opacity: 0.3;">
+
+        </div>
+    </div>
+
+    <button id="top" onclick="window.location.href='#h1';"><i class="fa-solid fa-up-long"></i></button>
+
+    
+</body>
+
+
+
+</html>
